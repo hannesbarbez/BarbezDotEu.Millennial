@@ -7,7 +7,7 @@
     <Product>BarbezDotEu.Millennial</Product>
     <PackageId>BarbezDotEu.Millennial</PackageId>
     <Copyright>©2024 Hannes Barbez</Copyright>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <Description>
         Pretend it's 2004 and encode a text like a millennial would on MSN Messenger. Decode them too!
         BarbezDotEu.Millennial is able to 'deobfuscate' (i.e. decode) a text by removing select Unicode lookalikes of letters and replace them with its corresponding character from the English alphabet.
