@@ -14,7 +14,6 @@ namespace BarbezDotEu.Millennial
         /// <inheritdoc/>
         /// <summary>
         /// Deobfuscates a text by removing all Unicode lookalikes of letters in the English alphabet.
-        /// Does not keep numbers, as not important for our app's use case (yet).
         /// </summary>
         /// <param name="obfuscatedText">The obfuscated text.</param>
         /// <returns>The deobfuscated text.</returns>
