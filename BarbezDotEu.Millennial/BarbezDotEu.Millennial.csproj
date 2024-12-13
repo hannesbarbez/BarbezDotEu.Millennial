@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Authors>Hannes Barbez</Authors>
+    <Company>Hannes Barbez</Company>
+    <Title>BarbezDotEu.Millennial</Title>
+    <Product>BarbezDotEu.Millennial</Product>
+    <PackageId>BarbezDotEu.Millennial</PackageId>
+    <Copyright>©2024 Hannes Barbez</Copyright>
+    <Version>1.0.0</Version>
+    <Description>
+	  Pretend it's 2004 and encode a text like a millennial would on MSN Messenger in 2004. Decode them too!
+	  BarbezDotEu.Millennial is able to 'deobfuscate' (i.e. decode) a text by removing select Unicode lookalikes of letters and replace them with its corresponding character from the English alphabet.
+	  At the same time, it can also 'obfuscate' (i.e. encode) a text into an alternative text containing random emojis and other 'strange' characters, just like a millennial would in e.g. 2004.
+    </Description>
+    <PackageTags>millennial;basic;deobfuscation;obfuscation;encode;decode;text;barbez</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://barbez.eu</PackageProjectUrl>
+    <PackageOutputPath>./nupkg</PackageOutputPath>
+    <RepositoryUrl>https://github.com/hannesbarbez/BarbezDotEu.Millennial</RepositoryUrl>
+    <RepositoryType>GIT</RepositoryType>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>ICON.png</PackageIcon>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="BarbezDotEu.Generic" Version="3.0.0" />
+    <PackageReference Include="BarbezDotEu.String" Version="4.0.0" />
+  </ItemGroup>
+    <ItemGroup>
+        <None Include="..\README.md" Pack="true" PackagePath="\" />
+        <None Include="..\ICON.png" Pack="true" PackagePath="\" />
+    </ItemGroup>
+</Project>

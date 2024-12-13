@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30309.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarbezDotEu.Millennial", "BarbezDotEu.Millennial\BarbezDotEu.Millennial.csproj", "{930E059B-4E87-4C83-97FF-A337705766E8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarbezDotEu.Millennial.Tests", "BarbezDotEu.Millennial.Tests\BarbezDotEu.Millennial.Tests.csproj", "{150ED9AF-4080-47DA-AFE9-B04D4FB90979}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B7CA58FE-4E4C-46E8-B886-8713D5E817EF}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{930E059B-4E87-4C83-97FF-A337705766E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{930E059B-4E87-4C83-97FF-A337705766E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{930E059B-4E87-4C83-97FF-A337705766E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{930E059B-4E87-4C83-97FF-A337705766E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{150ED9AF-4080-47DA-AFE9-B04D4FB90979}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{150ED9AF-4080-47DA-AFE9-B04D4FB90979}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{150ED9AF-4080-47DA-AFE9-B04D4FB90979}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{150ED9AF-4080-47DA-AFE9-B04D4FB90979}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {809F5E4B-2CBD-4B1C-8691-12EFB489DF3E}
+	EndGlobalSection
+EndGlobal
