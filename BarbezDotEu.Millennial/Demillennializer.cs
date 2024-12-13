@@ -20,10 +20,10 @@ namespace BarbezDotEu.Millennial
         /// <returns>The deobfuscated text.</returns>
         public static string Demillennialize(this string obfuscatedText)
         {
-            var delimited = Regexes.UnicodeWhiteSpaces.Replace(obfuscatedText, Constants.Separator);
+            var delimited = String.Regexes.UnicodeWhiteSpaces.Replace(obfuscatedText, Constants.Separator);
             var relevant = Regexes.IrrelevantCharacters.Replace(delimited, string.Empty);
             var essential = relevant.Replace(Constants.Separator, StringConstants.Space);
-            var basic = Regexes.ConsecutiveWhiteSpaces.Replace(essential, StringConstants.Space);
+            var basic = String.Regexes.ConsecutiveWhiteSpaces.Replace(essential, StringConstants.Space);
             var deobfuscated = basic;
 
             // Using foreach b/c regex didn't play nice with certain Unicode characters (new Regex($"[{string.Join('|', obfuscation.Value)}]", RegexOptions.IgnoreCase);).
@@ -35,7 +35,7 @@ namespace BarbezDotEu.Millennial
                 }
             }
 
-            var withoutSingleCharacters = Regexes.SingleCharacters.Replace(deobfuscated, string.Empty);
+            var withoutSingleCharacters = String.Regexes.SingleCharacters.Replace(deobfuscated, string.Empty);
             return withoutSingleCharacters;
         }
     }
