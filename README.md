@@ -1,6 +1,6 @@
 # BarbezDotEu.Millennial
 
-Pretend it's 2004 and encode a text like a millennial would on MSN Messenger in 2004. Decode them too!
+Pretend it's 2004 and encode a text like a millennial would on MSN Messenger. Decode them too!
 
 BarbezDotEu.Millennial is able to 'deobfuscate' (i.e. decode) a text by removing select Unicode lookalikes of letters and replace them with its corresponding character from the English alphabet.
 
