@@ -9,7 +9,7 @@ namespace BarbezDotEu.Millennial
 {
     /// <summary>
     /// Pretends it's 2004 and encodes a text like a millennial would on MSN Messenger in 2004.
-    /// 'Obfuscate' (i.e. encode) a text into an alternative text containing random emojis and other 'strange' characters, just like a millennial would in e.g. 2004.
+    /// 'Obfuscate' (i.e. encode) a text into an alternative text containing random emojis and other 'strange' characters, just like a millennial would back then.
     /// </summary>
     public static class Millennializer
     {
