@@ -28,7 +28,7 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="BarbezDotEu.Generic" Version="3.0.0" />
-    <PackageReference Include="BarbezDotEu.String" Version="5.1.0" />
+    <PackageReference Include="BarbezDotEu.String" Version="6.0.0" />
   </ItemGroup>
     <ItemGroup>
         <None Include="..\README.md" Pack="true" PackagePath="\" />
