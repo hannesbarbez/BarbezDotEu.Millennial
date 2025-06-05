@@ -6,8 +6,8 @@
     <Title>BarbezDotEu.Millennial</Title>
     <Product>BarbezDotEu.Millennial</Product>
     <PackageId>BarbezDotEu.Millennial</PackageId>
-    <Copyright>©2024 Hannes Barbez</Copyright>
-    <Version>1.0.1</Version>
+    <Copyright>©2025 Hannes Barbez</Copyright>
+    <Version>1.0.2</Version>
     <Description>
         Pretend it's 2004 and encode a text like a millennial would on MSN Messenger. Decode them too!
         BarbezDotEu.Millennial is able to 'deobfuscate' (i.e. decode) a text by removing select Unicode lookalikes of letters and replace them with its corresponding character from the English alphabet.
@@ -26,6 +26,14 @@
     <PackageIcon>ICON.png</PackageIcon>
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
+
+    <!-- only applies when Configuration == Release: -->
+    <PropertyGroup Condition="'$(Configuration)'=='Release'">
+        <!-- Turn off generation of a .pdb and strip debug info entirely -->
+        <DebugType>none</DebugType>
+        <DebugSymbols>false</DebugSymbols>
+        <Optimize>true</Optimize>
+    </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="BarbezDotEu.Generic" Version="3.0.0" />
     <PackageReference Include="BarbezDotEu.String" Version="6.0.0" />
