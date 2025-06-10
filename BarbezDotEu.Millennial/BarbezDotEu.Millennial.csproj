@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
     <Authors>Hannes Barbez</Authors>
@@ -35,8 +35,8 @@
         <Optimize>true</Optimize>
     </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="BarbezDotEu.Generic" Version="3.0.0" />
-    <PackageReference Include="BarbezDotEu.String" Version="6.0.0" />
+    <PackageReference Include="BarbezDotEu.Generic" Version="3.0.1" />
+    <PackageReference Include="BarbezDotEu.String" Version="6.0.1" />
   </ItemGroup>
     <ItemGroup>
         <None Include="..\README.md" Pack="true" PackagePath="\" />
