@@ -1,13 +1,13 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net9.0</TargetFramework>
+    <TargetFramework>net10.0</TargetFramework>
     <Authors>Hannes Barbez</Authors>
     <Company>Hannes Barbez</Company>
     <Title>BarbezDotEu.Millennial</Title>
     <Product>BarbezDotEu.Millennial</Product>
     <PackageId>BarbezDotEu.Millennial</PackageId>
-    <Copyright>©2025 Hannes Barbez</Copyright>
-    <Version>1.0.2</Version>
+    <Copyright>©2026 Hannes Barbez</Copyright>
+    <Version>2.0.0</Version>
     <Description>
         Pretend it's 2004 and encode a text like a millennial would on MSN Messenger. Decode them too!
         BarbezDotEu.Millennial is able to 'deobfuscate' (i.e. decode) a text by removing select Unicode lookalikes of letters and replace them with its corresponding character from the English alphabet.
@@ -35,8 +35,8 @@
         <Optimize>true</Optimize>
     </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="BarbezDotEu.Generic" Version="3.0.1" />
-    <PackageReference Include="BarbezDotEu.String" Version="6.0.1" />
+    <PackageReference Include="BarbezDotEu.Generic" Version="4.0.0" />
+    <PackageReference Include="BarbezDotEu.String" Version="7.0.0" />
   </ItemGroup>
     <ItemGroup>
         <None Include="..\README.md" Pack="true" PackagePath="\" />
